@@ -1,3 +1,0 @@
-import paises
-
-paises.run()

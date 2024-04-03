@@ -6,6 +6,8 @@ def read_csv(path):
         reader = csv.reader(Data_pop, delimiter= ',')
         header = next(reader)
         data = []
+
+
         for row in reader:
             iterable = zip(header, row)
             country_dict = {key: value for key, value in iterable}
@@ -15,4 +17,4 @@ def read_csv(path):
 
 if __name__ == '__main__':
     data = read_csv('./app/Data_pop.csv')
-    print(data[0])
+    print(data)
