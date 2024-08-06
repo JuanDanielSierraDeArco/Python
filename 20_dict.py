@@ -16,7 +16,6 @@ print(person)
 
 del person['last_name']
 print(person)
-
 person.pop('age')
 print(person)
 

@@ -1,41 +1,44 @@
 print("--------Condicional if --------")
 
+# Ejemplo básico de condicional if
 if True:
-  print("deberia ejecutarse")
+    print("debería ejecutarse")
 
 if False:
-  print("Nunca se ejecuta")
+    print("Nunca se ejecuta")
 
+# Solicita al usuario que ingrese su mascota favorita y guarda la entrada en la variable 'pet'
+pet = input("¿Cuál es tu mascota favorita? ")
 
-pet = input("Cuanl es tu mascota favorita ? ")
-
+# Condicionales para evaluar la mascota favorita del usuario
 if pet == 'perro':
-  print("Tienes buen gusto")
-
+    print("Tienes buen gusto")
 elif pet == 'gato':
-  print("genial que tengas buena suerte")
-
+    print("Genial, ¡que tengas buena suerte!")
 elif pet == 'pez':
-  print("eres lo maximo")
-
+    print("Eres lo máximo")
 else:
-  print("No tienes ninguna mascota interesante")
+    print("No tienes ninguna mascota interesante")
 
+# Comentario del bloque que sigue
 '''
 stock = input("Digital el stock => ")
 stock = int(stock)
 
-if stock >= 100 and stock <= 1000 :
-  print("El stock es correcto")
+# Condicional para verificar si el stock está en el rango correcto
+if stock >= 100 and stock <= 1000:
+    print("El stock es correcto")
 else:
-  print("El es stock es incorrecto")
+    print("El stock es incorrecto")
 '''
+# Programa para calcular si un número es par o impar
+print("Programa para calcular si un número es par o impar")
 
-print("Progrmam para calcular si un numero es par")
+# Solicita al usuario que ingrese un número y guarda la entrada en la variable 'valor'
+valor = int(input("Ingrese el número que desea verificar: "))
 
-valor = int(input("Ingrese el numero que desea comprobar =>"))
-
-if (valor % 2 == 0):
-  print("El numero {} es par".format(valor))
+# Condicional para verificar si el número es par o impar
+if valor % 2 == 0:
+    print("El número {} es par".format(valor))
 else:
-  print(f"el numero {valor} es impar")
+    print(f"El número {valor} es impar")

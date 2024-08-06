@@ -28,4 +28,4 @@ print(matrix_0[1])  # Salida: [[5, 6], [7, 8]]
 print(matrix_0[1][0])  # Salida: [5, 6]
 
 # Imprimimos el primer elemento del primer sub-elemento del segundo elemento de la matriz tridimensional
-print(matrix_0[1][0][0])  # Salida: 5
+print(matrix_0[1][0][0])  # Salida: 5       

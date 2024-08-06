@@ -12,7 +12,8 @@ for element in range(1,2,2):
 my_list = ['rojo', 'verde', 'azul', 1, 2, 3, 'casa']
 for i in my_list:
  print(i)
-
+rom app.ele
+aises.run()
 my_tuple = ('Enero', 'Febrero', 'Marzo',)
 for i in my_tuple:
   print(i)

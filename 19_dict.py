@@ -1,17 +1,38 @@
 print("-------------Diccionarios--------\n")
 
-my_dict = {
-  'avion': 'bla bla bla',
-  'name': 'juan',
-  'last_name': 'Sierra De Arco',
-  'age': 25
-}
-print(type(my_dict))
-print(my_dict)
-print(len(my_dict))
-print()
+numbers = {1: "uno", 2: "dos", 3: "tres", 4: "cuatro", 5: "cinco"}
 
-print(my_dict['age'])
-print(my_dict.get('age'))
-print('avion' in my_dict)
-print('avi' in my_dict)
+print(numbers)
+print(numbers[4])
+print(numbers.keys())
+print(numbers.values())
+
+information = { "Nombre" : "Juan Daniel",
+               "Apellido": "Sierra De Arco",
+               "Altura" : 1.73,
+               "Edad" : 25}
+print(information)
+claves = information.keys()
+print(claves)
+
+values = information.values()
+print(values)
+
+pares = information.items()
+print(pares)
+
+contactos = {"Juan" : {
+               "Apellido": "Sierra De Arco",
+               "Altura" : 1.73,
+               "Edad" : 25}, 
+               "Daniel" : {
+               "Apellido": "Sierra De Arco",
+               "Altura" : 1.73,
+               "Edad" : 28},
+               "pedro" : {
+               "Apellido": "Sierra De Arco",
+               "Altura" : 1.73,
+               "Edad" : 30}}
+
+print(contactos.keys())
+print(contactos.values())
