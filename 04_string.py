@@ -74,3 +74,11 @@ print('v2', teamplate)  # Imprime la cadena formateada con f-strings con el pref
 # Uso de f-strings para crear una cadena
 teamplate = f"Mi nombre es {my_name} y mi apellido es {last_name}"
 print('v2', teamplate)  # Imprime la cadena formateada con f-strings con el prefijo 'v2'
+
+#indexing
+# Imprime la primera letra de la cadena 'my_name'
+print(my_name[0])
+# Imprime la segunda letra de la cadena 'my_name'
+print(my_name[1])
+# Imprime la última letra de la cadena 'my_name'
+print(my_name[-1])
