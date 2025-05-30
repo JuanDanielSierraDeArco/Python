@@ -9,3 +9,5 @@ edad = int(input('Ingrese su edad :'))
 print('Su edad es : {}'.format(edad))
 
 print(type(edad))
+
+print('Su edad es :', edad)
